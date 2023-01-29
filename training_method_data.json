@@ -1,0 +1,1008 @@
+{
+  "name": "Machine learning method",
+  "children": [
+   {
+    "name": "Detection",
+    "children": [
+     {
+      "name": "Transfer learning",
+      "children": [
+       {
+           "name": "Yes",
+           "children": [
+           {
+               "name":"Training method",
+               "children": [
+               {"name": "Fine tuning",
+                "children":[
+                  {
+                    "name":"Arhitecture",
+                    "children": [
+                      {"name":"Neural Network with Abstraction-Level fusion", 
+                       "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 98.6 ± 1.67%", "children":[
+                            {"name":"[34]"}
+                          ]}
+                        ]}
+                       ]},
+                      {"name":"Modified LeNet", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"True positive rate 98.6 ± 1.47%", "children":[
+                            {"name":"[90]"}
+                          ]}
+                        ]}
+                       ]},
+                      {"name":"CNN", "children":[
+                        {"name":"Own", "children":[
+                          {"name":"Accuracy 94%", "children":[
+                            {"name":"[15]"}
+                          ]}
+                        ]}
+                       ]},
+                      {"name":"EfficientNet B7","children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 98.7%", "children":[
+                            {"name":"[109]"}
+                          ]}
+                        ]}
+                       ]},
+                      {"name": "GPDCNN", "children":[
+                        {"name":"Real environment", "children":[
+                          {"name":"CA 94.65%", "children":[
+                            {"name":"[98]"}
+                          ]}
+                        ]}
+                       ]},
+                      {"name":"PlantDiseaseNet","children":[
+                        {"name":"PlantVillage + Real environment", "children":[
+                          {"name":"Accuracy 93.67%", "children":[
+                            {"name":"[2.1]"}
+                          ]}
+                        ]}
+                       ]},
+                      {"name":"VGG-FCN-VD16 and VGG-FCN-S", "children":[
+                        {"name":"Wheat Disease Database 2017", "children":[
+                          {"name":"Accuracy 97.95%", "children":[
+                            {"name":"[91]"}
+                          ]}
+                        ]}
+                       ]}
+                    ]}
+                ]}
+               ]
+           }]
+        },
+       {
+           "name": "No",
+           "children": [
+           { "name":"Training method",
+               "children":[
+              {"name": "Feature extraction",
+               "children":[
+                {"name":"Arhitecture",
+                 "children":[
+                  {"name": "VGG-16, ResNet-50, ResNet-101, ResNet-152, ResNeXt-50", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Mean AP 83%", "children":[
+                        {"name":"[36]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"SVM", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Accuracy 94.74%", "children":[
+                        {"name":"[72]"}
+                      ]}
+                    ]}
+                   ]},
+                  {"name":"VGG-16, AlexNet and SVM", "children":[
+                    {"name":"PlantVillage + CASC-IFW", "children":[
+                      {"name":"CA 98.6%", "children":[
+                        {"name":"[84]"}
+                      ]}
+                    ]}
+                   ]}
+                 ]}
+               ]},
+              {"name": "From scratch",
+               "children":[
+                {"name":"Arhitecture",
+                 "children":[
+                  {"name":"VGG-A, CNN", "children":[
+                    {"name":"Real field", "children":[
+                      {"name":"Accuracy 93.3%", "children":[
+                        {"name":"[92]"}
+                      ]}
+                    ]}
+                   ]},
+                  {"name": "LeNet5", "children":[
+                    {"name":"Real environment", "children":[
+                      {"name":"CA 95.8%", "children":[
+                        {"name":"[85]"}
+                      ]}
+                    ]}
+                   ]},
+                  {"name":"Deep Residual Neural Networks", "children":[
+                    {"name":"Kaggle", "children":[
+                      {"name":"Accuracy 96.75%", "children":[
+                        {"name":"[18]"}
+                      ]}
+                    ]}
+                   ]}
+                 ]}
+               ]},
+              {"name": "Back propagation algorithm",
+               "children":[
+                {"name":"Arhitecture",
+                 "children":[
+                  {"name":"ANN/BPNN", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Accuracy 90%", "children":[
+                        {"name":"[47]"}
+                      ]}
+                    ]}
+                   ]}
+                 ]}
+               ]},
+              {"name": "Levenberg–Marquardt training algorithm",
+               "children":[
+                {"name":"Arhitecture",
+                 "children":[
+                  {"name":"ANN and SVM", "children":[
+                    {"name":"Agricultural institution at University of Tehran", "children":[
+                      {"name":"Root mean squared error 0.13", "children":[
+                        {"name":"[73]"}
+                      ]}
+                    ]}
+                   ]}
+                 ]}
+               ]},
+              {"name": "Labeling",
+               "children":[
+                {"name":"Arhitecture",
+                 "children":[
+                  {"name":"CLFRHD, CLFRFE_SLB, and CLFRDM_SLB", "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"Accuracy ∼90%", "children":[
+                        {"name":"[46]"}
+                      ]}
+                    ]}
+                   ]}
+                 ]}
+               ]},
+              {"name": "Extracted descriptors",
+                "children":[
+                {"name":"Arhitecture",
+                 "children":[
+                  {"name":"Algorithm pipeline", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"AuC higher than 0.8", "children":[
+                        {"name":"[83]"}
+                      ]}
+                    ]}
+                   ]}
+                 ]}
+               ]},
+              {"name": "Competitive learning with supervised learning",
+               "children":[
+                {"name":"Arhitecture",
+                 "children":[
+                  {"name":"CNN model and Learning Vector Quantization", "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"Average accuracy 86%", "children":[
+                        {"name":"[62]"}
+                      ]}
+                    ]}
+                   ]}
+                 ]}
+               ]},
+               {
+                "name":"NA",
+                "children":[
+                  {"name":"Arhitecture",
+                  "children":[
+                    {"name":"Logistic regression, KNN, CNN, SVM", "children":[
+                      {"name":"Github + Kaggle", "children":[
+                        {"name":"Accuracy 98%", "children":[
+                          {"name":"[28]"}
+                        ]}
+                      ]}
+                     ]},
+                    {"name":"VGG-Inception", "children":[
+                      {"name":"PlantVillage + Real environment + University", "children":[
+                        {"name":"Mean average accuracy 78.8%", "children":[
+                          {"name":"[112]"}
+                        ]}
+                      ]}
+                     ]},
+                    {"name:":"KNN, Decision tree, Logistic regression and Naive Bayes", "children":[
+                      {"name":"UCI Machine Learning Repository", "children":[
+                        {"name":"Accuracy over 97%", "children":[
+                          {"name":"[22]"}
+                        ]}
+                      ]}
+                     ]}
+                  ]}
+                ]}
+               ]
+           }]
+        }]
+     }]},
+   {
+    "name": "Classification",
+    "children": [
+      {
+       "name": "Transfer learning",
+       "children": [
+        {
+            "name": "Yes",
+            "children": [
+            {
+                "name":"Training method",
+                "children": [
+                {"name": "Fine tuning",
+                 "children":[
+                   {
+                     "name":"Arhitecture",
+                     "children": [
+                       {"name":"CafeNet", "children":[
+                        {"name":"Internet", "children":[
+                          {"name":"Precision 96.3%", "children":[
+                            {"name":"[1]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"GoogLeNet and AlexNet,Inception v1", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Overall accuracy 99.34%", "children":[
+                            {"name":"[4]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "Inception v3 CNN/SVM on topest level", "children":[
+                        {"name":"International Institute of Tropical Agriculture, Tanzania", "children":[
+                          {"name":"Overall accuracy 93%", "children":[
+                            {"name":"[20]"}
+                          ]}
+                        ]}
+                       ]},
+                       { "name": "AlexNet and GoogLeNet", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 0.9918 ± 0.169%", "children":[
+                            {"name":"[33]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "CNN + MobileNet", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 92%", "children":[
+                            {"name":"[60]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "AlexNet, GoogLeNet, ResNet - modified", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"CA 97.28%", "children":[
+                            {"name":"[80]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"DCNN, Random forest, Support Vector Machine and AlexNet", "children":[
+                        {"name":"PlantVillage + Forestry Image dataset + Agricultural field in China", "children":[
+                          {"name":"CA 93.4%", "children":[
+                            {"name":"[82]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"AlexNet and VGG-16", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"CA 97.49%", "children":[
+                            {"name":"[81]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "GoogLeNet", "children":[
+                        {"name":"Database (https://www.digipathos-rep.cnptia.embrapa.br/)", "children":[
+                          {"name":"NA", "children":[
+                            {"name":"[540]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "PlantDiseaseNet", "children":[
+                        {"name":"PlantVillage + Real environment", "children":[
+                          {"name":"Accuracy 93.67%", "children":[
+                            {"name":"[2.1]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "GoogLeNet",  "children":[
+                        {"name":"Own", "children":[
+                          {"name":"Overall accuracy 94%", "children":[
+                            {"name":"[15]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "AlexNet",  "children":[
+                        {"name":"Real field", "children":[
+                          {"name":"Accuracy 91.37%", "children":[
+                            {"name":"[23]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "AlexNet, VGG16, VGG19, GoogleNet\n ResNet50, ResNet101, InceptionV3, InceptionResNetV2\n SqueezeNet",  "children":[
+                        {"name":"Real environment", "children":[
+                          {"name":"Specificity 99.54%", "children":[
+                            {"name":"[64]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"MobileNet modified",  "children":[
+                        {"name":"Real environment", "children":[
+                          {"name":"Top 1 accuracy 96.82%", "children":[
+                            {"name":"[104]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"InceptionV3, InceptionResNetV2, MobileNetV2, and EfficientNetB0 modified",  "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 99.56%", "children":[
+                            {"name":"[6]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"VGGNet",  "children":[
+                        {"name":"PlantVillage + Own", "children":[
+                          {"name":"Average accuracy 92%", "children":[
+                            {"name":"[11]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"Resnet-50, Inception-V2, MobileNet-V1",  "children":[
+                        {"name":"Real environment", "children":[
+                          {"name":"Mean average accuracy 99%", "children":[
+                            {"name":"[96]"}
+                          ]}
+                        ]}
+                       ]},
+                       
+                       {"name": "ResNet50",  "children":[
+                        {"name":"Database from Johannes et al. (2017)", "children":[
+                          {"name":"Balanced accuracies greater than 0.96", "children":[
+                            {"name":"[70]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"VGG-16, ResNet-50,101,152, Inception-V4 and DenseNets-121", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 99.75%", "children":[
+                            {"name":"[94]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "VGG-16 model with SCNN-KSVM and SCNN-RF", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Precision 0.94", "children":[
+                            {"name":"[19]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"AlexNet, VGG16, VGG19, Denset201, GoogleNet, Inceptionresnetv2, Inceptionv3, ResNet18, ResNet50, ResNet101, XceptionNet", "children":[
+                        {"name":"Database (http://bcch.ahnw.gov.cn/Right.aspx) + real field", "children":[
+                          {"name":"Accuracy 98.38%", "children":[
+                            {"name":"[24]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name": "DenseNet201, ResNet101, MobileNasNet, InceptionV3, ResNet101, Mobile Net V3", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 99.99%", "children":[
+                            {"name":"[111]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"Conditional Generative Adversarial Network (C-GAN) and DenseNet121", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 99.51%", "children":[
+                            {"name":"[106]"}
+                          ]}
+                        ]}
+                       ]
+                      },
+                       {"name":"Transformer-Embedded Convolutional Neural Network MobileNet-V2", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 99.62%", "children":[
+                            {"name":"[108]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"EfficientNet B5", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 99.97%", "children":[
+                            {"name":"[5]"}
+                          ]}
+                        ]}
+                       ]},
+                       {"name":"EfficientNet B7", "children":[
+                        {"name":"PlantVillage", "children":[
+                          {"name":"Accuracy 98.7%", "children":[
+                            {"name":"[109]"}
+                          ]}
+                        ]}
+                       ]}
+                     ]
+                   }
+                 ]},
+                {"name": "Shallow / deep strategy",
+                 "children": [
+                  {"name":"Arhitecture",
+                   "children": [
+                    {"name":"AlexNet, DenseNet-169, Inception v3, ResNet-34, SqueezeNet-1.1 and VGG13", "children":[
+                      {"name":"PlantVillage", "children":[
+                        {"name":"Accuracy 99.76%", "children":[
+                          {"name":"[3.1]"}
+                        ]}
+                      ]}
+                     ]}
+                   ]}
+                 ]},
+                {"name": "Transfer learning from Teacher to Student",
+                "children":[{
+                  "name":"Arhitecture",
+                  "children": [
+                    {"name": "Teacher/student architecture", "children":[
+                      {"name":"PlantVillage", "children":[
+                        {"name":"Accuracy ~ 99%", "children":[
+                          {"name":"[95]"}
+                        ]}
+                      ]}
+                     ]}]
+                }]}
+                ]}
+              ]
+            },
+        {
+            "name": "No",
+            "children": [
+            {
+                "name":"Training method",
+                "children":[
+               {"name": "Feature extraction",
+                "children":[
+                 {"name":"Arhitecture",
+                  "children":[
+                   {"name":"SVM", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Accuracy 94.74%", "children":[
+                        {"name":"[72]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"SVM", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Acceptance rate 96%", "children":[
+                        {"name":"[41]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"KNN", "children":[
+                    {"name":"NA", "children":[
+                      {"name":"Classification rate over 90%", "children":[
+                        {"name":"[31]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"SVM", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Accuracy 88.89%", "children":[
+                        {"name":"[42]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"SVM", "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"Accuracy 95%", "children":[
+                        {"name":"[43]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"SVM", "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"Average accuracy 90%", "children":[
+                        {"name":"[44]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"SVM", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Accuracy 93.33%", "children":[
+                        {"name":"[45]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"KNN", "children":[
+                    {"name":"Sardarkrushinagar Dantiwada Agriculture University", "children":[
+                      {"name":"Accuracy 82.5%", "children":[
+                        {"name":"[49]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"LeNet", "children":[
+                    {"name":"PlantVillage + Own", "children":[
+                      {"name":"Accuracy 98.61%", "children":[
+                        {"name":"[32]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"Random forest", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Accuracy 70.14%", "children":[
+                        {"name":"[3.2]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"Random forest", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"NA", "children":[
+                        {"name":"[17]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"Random forest", "children":[
+                    {"name":"NA", "children":[
+                      {"name":"Accuracy 95%", "children":[
+                        {"name":"[103]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"Random forest", "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"Average accuracy 93%", "children":[
+                        {"name":"[61]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"VGG-16, AlexNet, mutli-class SVM", "children":[
+                    {"name":"PlantVillage + CASC-IFW", "children":[
+                      {"name":"CA 98.6%", "children":[
+                        {"name":"[84]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"KNN", "children":[
+                    {"name":"The Arkansas  plant disease database and Reddit-plant leaf disease datasets", "children":[
+                      {"name":"Accuracy 96.76%", "children":[
+                        {"name":"[8]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"SVM", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Accuracy 95.69%", "children":[
+                        {"name":"[107]"}
+                      ]}
+                    ]}
+                   ]}
+                  ]}
+                ]},
+               {"name": "From scratch",
+                "children":[
+                 {"name":"Arhitecture",
+                  "children":[
+                   {"name":"Deep Residual Neural Networks", "children":[
+                    {"name":"Kaggle", "children":[
+                      {"name":"Accuracy 96.75%", "children":[
+                        {"name":"[18]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "GoogLeNet and AlexNet, Inception v1",  "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"Overall accuracy 99.34%", "children":[
+                        {"name":"[4]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "CNN",  "children":[
+                    {"name":"Research center", "children":[
+                      {"name":"CA 82.3%", "children":[
+                        {"name":"[114]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "AlexNet and SqueezeNet v1.1",  "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"CA 95.65%", "children":[
+                        {"name":"[76]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "Computational pipeline of convolutional neural networks",  "children":[
+                    {"name":"Dataset (http://bisque.iplantcollaborative.org)", "children":[
+                      {"name":"Accuracy 96.7%", "children":[
+                        {"name":"[35]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "CNN (inspired by AlexNet and GoogLeNet) named AlexNet Precursor", "children":[
+                    {"name":"Experiment stations", "children":[
+                      {"name":"Mean AP 85.98%", "children":[
+                        {"name":"[37]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "DCNN", "children":[
+                    {"name":"Real field",  "children":[
+                      {"name":"Accuracy 95.48%", "children":[
+                        {"name":"[38]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "CNN-F", "children":[
+                    {"name":"Own",  "children":[
+                      {"name":"Accuracy ~ 96%", "children":[
+                        {"name":"[39]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "VGG-A, CNN", "children":[
+                    {"name":"Real field",  "children":[
+                      {"name":"Accuracy 93.3%", "children":[
+                        {"name":"[92]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "Super-Resolution Convolutional Neural Network", "children":[
+                    {"name":"PlantVillage",  "children":[
+                      {"name":"Accuracy ~ 90%", "children":[
+                        {"name":"[89]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "Alexnet", "children":[
+                    {"name":"Real field",  "children":[
+                      {"name":"CA 94.13%", "children":[
+                        {"name":"[113]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "AlexNet, AlexNetOWTBn, GoogLeNet, Overfeat and VGG", "children":[
+                    {"name":"PlantVillage",  "children":[
+                      {"name":"Success rate 99.53%", "children":[
+                        {"name":"[2.2]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "LeNet", "children":[
+                    {"name":"PlantVillage",  "children":[
+                      {"name":"Classification accuracy 99.32%", "children":[
+                        {"name":"[53]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "Improved GoogLeNet and Cifar10", "children":[
+                    {"name":"PlantVillage + various websites",  "children":[
+                      {"name":"Accuracy 98.9%", "children":[
+                        {"name":"[66]"}
+                      ]}
+                    ]}
+                   ]
+                  },
+                   {"name": "3D CNN", "children":[
+                    {"name":"Real environment",  "children":[
+                      {"name":"CA 95.73%", "children":[
+                        {"name":"[86]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "2D-CNN-BidGRU", "children":[
+                    {"name":"Real field",  "children":[
+                      {"name":"Accuracy 74.3%", "children":[
+                        {"name":"[88]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "CNN", "children":[
+                    {"name":"PlantVillage",  "children":[
+                      {"name":"Accuracy rate 96.5%", "children":[
+                        {"name":"[10]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "VGG-INCEP", "children":[
+                    {"name":"Experiment stations",  "children":[
+                      {"name":"Mean average precision 78.80%", "children":[
+                        {"name":"[12]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "Optimized Deep Neural Network with Jaya Algorithm (DNN_JOA classifier)", "children":[
+                    {"name":"Own",  "children":[
+                      {"name":"Accuracy 98.9%", "children":[
+                        {"name":"[13]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "Deep CNN", "children":[
+                    {"name":"PlantVillage",  "children":[
+                      {"name":"Classification accuracy 96.46%", "children":[
+                        {"name":"[14]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "Modified MobileNet and Reduced MobileNet (+ MobileNet,VGG and AlexNet)", "children":[
+                    {"name":"PlantVillage",  "children":[
+                      {"name":"Accuracy 98.65%", "children":[
+                        {"name":"[67]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "LeafNet, SVM, MLP", "children":[
+                    {"name":"Real field",  "children":[
+                      {"name":"Classification accuracy 90.16%", "children":[
+                        {"name":"[68]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "OR-AC-GAN", "children":[
+                    {"name":"Real environment",  "children":[
+                      {"name":"Accuracy 96.25%", "children":[
+                        {"name":"[101]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "DCNN", "children":[
+                    {"name":"Real environment",  "children":[
+                      {"name":"Accuracy 85%", "children":[
+                        {"name":"[102]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "CNN", "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"CA 92.85%", "children":[
+                        {"name":"[115]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "CNN", "children":[
+                    {"name":"Own",  "children":[
+                      {"name":"Accuracy 98.6%", "children":[
+                        {"name":"[63]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "Shallow CNN", "children":[
+                    {"name":"Own",  "children":[
+                      {"name":"F1-score 0.9473",  "children":[
+                        {"name":"[105]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "Hybrid model based on Convolutional Autoencoder network and Convolutional Neural Network", "children":[
+                    {"name":"PlantVillage",  "children":[
+                      {"name":"Accuracy 98.38%",  "children":[
+                        {"name":"[9]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "CNN (modified)", "children":[
+                    {"name":"Kaggle",  "children":[
+                      {"name":"Accuracy over 93%",  "children":[
+                        {"name":"[65]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name": "DCNN", "children":[
+                    {"name":"Online data respositories",  "children":[
+                      {"name":"Classification accuracy 99.96%",  "children":[
+                        {"name":"[59]"}
+                      ]}
+                    ]}
+                   ]}
+                  ]}
+                ]},
+               {"name": "Back propagation algorithm",
+                "children":[
+                 {"name":"Arhitecture",
+                  "children":[
+                    {"name":"BPNN", "children":[
+                      {"name":"Own",  "children":[
+                        {"name":"Accuracy 100%-very small dataset",  "children":[
+                          {"name":"[71]"}
+                        ]}
+                      ]}
+                     ]},
+                    {"name":"ANN/BPNN", "children":[
+                      {"name":"Own",  "children":[
+                        {"name":"Accuracy 90%",  "children":[
+                          {"name":"[47]"}
+                        ]}
+                      ]}
+                     ]},
+                    {"name":"BPNN", "children":[
+                      {"name":"Own",  "children":[
+                        {"name":"Efficiency 97%",  "children":[
+                          {"name":"[48]"}
+                        ]}
+                      ]}
+                     ]},
+                    {"name":"Feed-forward back propagation network", "children":[
+                      {"name":"Own",  "children":[
+                        {"name":"Accuracy 85.52%",  "children":[
+                          {"name":"[55]"}
+                        ]}
+                      ]}
+                     ]}
+                  ]}
+                ]},
+               {"name": "Levenberg–Marquardt training algorithm",
+                "children":[
+                 {"name":"Arhitecture",
+                  "children":[
+                   {"name":"ANN and SVM", "children":[
+                    {"name":"Agricultural institution at University of Tehran", "children":[
+                      {"name":"Root mean squared error 0.13",  "children":[
+                        {"name":"[73]"}
+                      ]}
+                    ]}
+                   ]},
+                   {"name":"ANN", "children":[
+                    {"name":"Own", "children":[
+                      {"name":"Accuracy 90%",  "children":[
+                        {"name":"[50]"}
+                      ]}
+                    ]}
+                   ]}
+                  ]}
+                ]},
+               {"name": "Reference histograms",
+                "children": [
+                  {"name":"Arhitecture",
+                   "children": [
+                    {"name":"Pairwise-based classification", "children":[
+                      {"name":"Own", "children":[
+                        {"name":"Cotton accuracy 76%",  "children":[
+                          {"name":"[40]"}
+                        ]}
+                      ]}
+                     ]}
+                   ]}
+                ]},
+                {"name": "Utilized LBP histograms",
+                "children": [
+                  {"name":"Arhitecture",
+                   "children": [
+                    {"name":"One Class Classification", "children":[
+                      {"name":"Own", "children":[
+                        {"name":"Success rate 95%",  "children":[
+                          {"name":"[7]"}
+                        ]}
+                      ]}
+                     ]}
+                   ]}
+                ]},
+                {"name": "Ensemble learning technique",
+                "children":[
+                 {"name":"Arhitecture",
+                  "children":[
+                   {"name":"Hybrid model (VGG-16 and MobileNet)", "children":[
+                    {"name":"Google", "children":[
+                      {"name":"Accuracy 89.2%",  "children":[
+                        {"name":"[110]"}
+                      ]}
+                    ]}
+                   ]}
+                  ]}
+                ]},
+               {"name": "Labeling",
+                "children":[
+                 {"name":"Arhitecture",
+                  "children":[
+                   {"name":"CLFRHD, CLFRFE_SLB and CLFRDM_SLB", "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"Average accuracy ~ 90%",  "children":[
+                        {"name":"[46]"}
+                      ]}
+                    ]}
+                   ]}
+                  ]}
+                ]},
+               {"name": "Competitive learning with supervised learning",
+                "children":[
+                 {"name":"Arhitecture",
+                  "children":[
+                   {"name":"CNN model and Learning Vector Quantization", "children":[
+                    {"name":"PlantVillage", "children":[
+                      {"name":"Average accuracy 86%",  "children":[
+                        {"name":"[62]"}
+                      ]}
+                    ]}
+                   ]}
+                  ]}
+                ]},
+                {
+                  "name":"NA",
+                  "children":[
+                    {"name":"Arhitecture",
+                    "children":[
+                      {"name":"Logistic regression, KNN, CNN, SVM", "children":[
+                        {"name":"Github + Kaggle", "children":[
+                          {"name":"Accuracy 98%",  "children":[
+                            {"name":"[28]"}
+                          ]}
+                        ]}
+                       ]},
+                      {"name":"VGG-Inception", "children":[
+                        {"name":"PlantVillage + Real environment + University", "children":[
+                          {"name":"Mean average accuracy 78.8%",  "children":[
+                            {"name":"[112]"}
+                          ]}
+                        ]}
+                       ]},
+                      {"name:":"KNN, Decision tree, Logistic regression and Naive Bayes", "children":[
+                        {"name":"UCI Machine Learning Repository",  "children":[
+                          {"name":"Accuracy over 97%",  "children":[
+                            {"name":"[22]"}
+                          ]}
+                        ]}
+                       ]},
+                      {"name:":"KNN, C5.0 - decision tree and FR-KNN", "children":[
+                        {"name":"Own",  "children":[
+                          {"name":"Classification rate 97.22%",  "children":[
+                            {"name":"[69]"}
+                          ]}
+                        ]}
+                       ]}
+                    ]}
+                  ]
+                 }
+                ]
+            }
+            ]
+         }
+       ]
+      }
+     ]
+   },
+   {
+    "name": "Segmentation",
+    "children": [
+     {
+      "name": "Transfer learning",
+      "children": [
+       {"name": "No",
+        "children": [
+          {"name":"Training method",
+           "children":[
+            {"name":"From scratch",
+             "children": [
+              {"name":"Arhitecture",
+               "children": [
+                {"name":"CNN", "children":[
+                  {"name":"Own", "children":[
+                    {"name":"Accuracy 96.8%", "children":[
+                      {"name":"[97]"}
+                    ]}
+                  ]}
+                 ]}
+               ]}
+             ]},
+            {"name": "NA",
+             "children":[
+              {"name":"hybrid clustering EM algorithm", "children":[
+                {"name":"NA", "children":[
+                  {"name":"NA",  "children":[
+                    {"name":"[16]"}
+                  ]}
+                ]}
+               ]}
+             ]}
+           ]}
+        ]}
+      ]
+     }
+    ]
+   }
+  ]
+ }
